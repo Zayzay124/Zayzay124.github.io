@@ -19,6 +19,10 @@ h4 {
 p {
     margin: 0 0 10.5px;
 }
+.profile-pic {
+    margin: 0 auto;
+    border: 7px solid white;
+}
 
 .about-me {
     display: flex;
