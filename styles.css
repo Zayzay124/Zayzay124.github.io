@@ -6,11 +6,37 @@
 }
 
 .socials {
-    gap: 12px;
+    display: flex;
+    gap: 20px;
 }
+
+.socials a {
+    background-color: lightblue;
+    padding: 1em;
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05)
+}
+.socials a svg {
+    height: 32px;
+}
+
+/*.socials a::before {
+    content: 'Github';
+    https://youtu.be/UQKWc2r_41U?si=_LoOnSzKZsfmI_wO&t=224
+}*/
 
 .description {
     background: dodgerblue;
     border: 4px solid midnightblue;
     width: 33%;
+}
+
+.projects {
+    display: flex;
 }
