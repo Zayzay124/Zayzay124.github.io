@@ -12,11 +12,12 @@ a {
 
 h4 {
   font-size: 19px;
-  font-weight: 700px
+  font-weight: 700px;
+  margin-bottom: 8px; 
 }
 
 p {
-    margin: 0;
+    margin: 0 0 10.5px;
 }
 
 .about-me {
@@ -59,10 +60,14 @@ p {
 }*/
 
 .description {
-    background: #694966;
-    border: 4px solid #74526C;
+    background-color: #694966;
     border-radius: 30px;
     width: 33%;
+    padding: 18px;
+}
+
+.description p {
+  background-color:inherit
 }
 
 .projects {
