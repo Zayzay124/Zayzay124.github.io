@@ -81,11 +81,8 @@ p {
   background-color:inherit
 }
 
-.projects {
-    background-color: gray;
-}
-
 .cards {
+    background-color: gray;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
