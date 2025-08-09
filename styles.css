@@ -1,5 +1,6 @@
 * {
-    background-color: #5C415D;
+    /*background-color: #5C415D;*/
+    background-color: #685570;
     color: #ffffff;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
@@ -8,12 +9,20 @@
 
 a {
     color: #FF5D73;
+    text-decoration: none;
 }
 
 h4 {
   font-size: 19px;
   font-weight: 700px;
   margin-bottom: 8px; 
+}
+
+h6 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px 0;
 }
 
 p {
@@ -60,6 +69,7 @@ p {
     place-items: center;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05)
 }
+
 .socials a svg {
     height: 32px;
     background-color: inherit;
@@ -95,7 +105,6 @@ p {
     max-width: 300px;
     border: 1px solid #999;
     border-radius: 3px;
-
     display: grid;
     grid-template-rows: max-content 200px 1fr;
 }
@@ -108,7 +117,7 @@ p {
 
 .card h2 {
   margin: 0;
-  padding: 0.5rem;
+  padding: 0.5rem 0;
 }
 
 .card .content {
@@ -119,4 +128,69 @@ p {
   background-color: #333;
   color: #fff;
   padding: 0.5rem;
+}
+
+.project-page {
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: 8px solid gray;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.project-header button {
+    background-color: #333;
+    color: #FF5D73;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.project-header button:hover {
+    background-color: #FF5D73;
+    color: #333;
+}
+
+.project-header h1{
+    color: cadetblue;
+}
+
+.project-header h6 {
+    color: orange;
+}
+
+.project-content {
+    padding: 1em;
+    padding-top: 0;
+}
+
+.project-links {
+    margin: 10px 0 10px;
+}
+
+.project-links button {
+    background-color: #333;
+    color: #FF5D73;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 3px 6px;
+}
+
+.project-links button:hover {
+    background-color: #FF5D73;
+    color:#333;
+ }
+
+.project-images {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.project-images img {
+    width: 475px;
+    height: auto;
 }
