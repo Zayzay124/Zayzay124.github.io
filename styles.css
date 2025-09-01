@@ -87,6 +87,10 @@ p {
     padding: 18px;
 }
 
+.description a {
+    background-color: inherit;
+}
+
 .description p {
   background-color:inherit
 }
